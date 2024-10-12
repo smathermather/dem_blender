@@ -8,10 +8,8 @@ import string
 import signal
 import io
 import shutil
+import log
 from collections import deque
-
-#from opendm import context
-#from opendm import log
 
 class SubprocessException(Exception):
     def __init__(self, msg, errorCode):
